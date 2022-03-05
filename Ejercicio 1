@@ -1,0 +1,19 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        int numero1 = 1;
+        System.out.println(numero1);
+        int numero2 = 2;
+
+        int nuevoNumero = numero1 + numero2;
+        System.out.println(nuevoNumero);
+
+        int arrayNum[];
+
+        arrayNum = new int[]{1, 2, 3, 4};
+        System.out.println(arrayNum[0]);
+
+
+    }
+}
