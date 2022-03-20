@@ -27,5 +27,5 @@ lista = [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,
 81,	82,	83,	84,	85,	86,	87,	88,	89,	90,
 91,	92,	93,	94,	95,	96,	97,	98,	99,	100]
 
-for dato in lista[::-1]:
-   print(dato)
+for ordenInverso in lista[::-1]:
+   print(ordenInverso)
