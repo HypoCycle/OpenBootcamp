@@ -1,0 +1,7 @@
+usuario = 'Alfred'
+edad = 18
+
+if edad >= 18:
+    print(usuario + " es mayor de edad")
+elif edad < 18:
+    print(usuario + " es menor de edad")
