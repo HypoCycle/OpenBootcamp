@@ -4,6 +4,6 @@ while contador < 8:
     contador += 1
 
     if contador % 2 != 0:
-        print(contador, "es un numero impar")
+        print(contador, "es un número impar")
 
 
