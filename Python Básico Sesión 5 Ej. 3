@@ -1,0 +1,13 @@
+# Escribe una función que pueda decirte si un año (número entero) es bisiesto o no.
+
+
+año = 1992
+
+def es_bisiesto(año):
+	if año % 4 == 0:
+		print("Es un año bisiesto")
+	elif año % 100 != 0 and año % 400 == 0:
+		print("Es un año bisiesto")
+	else:
+		print("Es un año normal")
+
