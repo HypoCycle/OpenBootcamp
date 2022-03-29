@@ -1,0 +1,31 @@
+class alumno:
+
+    #Inicializamos atributos
+
+    def __init__(self, nombre, edad, nota):
+        self.nombre = nombre
+        self.edad = edad
+        self.nota = nota
+
+    def imprimir(self):
+        print("Alumno:", self.nombre)
+        print("Nota:", self.nota)
+        print("Edad:", self.edad)
+
+    def resultado(self):
+        if self.nota < 5:
+            print("El alumno ha aprobado")
+        else:
+            print("El alumno ha aprobado")
+
+    def mayorEdad(self):
+        if self.edad < 18:
+            print("El alumno es menor de edad")
+        else:
+            print("El alumno es mayor de edad")
+
+alumno1 = alumno("Alfred", 17, 9.5)
+
+alumno1.imprimir()
+alumno1.resultado()
+alumno1.mayorEdad()
