@@ -1,0 +1,9 @@
+import operaciones as o
+
+print(o.suma(2, 2))
+
+print(o.resta(2,2))
+
+print(o.multiplicar(2,2))
+
+print(o.dividir(2, 2))
