@@ -1,0 +1,32 @@
+#En este segundo ejercicio, tendréis que crear una interfaz sencilla la cual debe de contener una lista de elementos
+# seleccionables, también debe de tener un label con el texto que queráis.
+
+import tkinter
+from tkinter import ttk
+
+window = tkinter.Tk()
+
+window.columnconfigure(1, weight=1)
+window.columnconfigure(1, weight=1)
+
+label1 = tkinter.Label(window, text='Escoge la vida después de la programación', bg='grey', fg='black')
+label1.grid(column=1, row=1, sticky=tkinter.W, padx=5, pady=5)
+
+seleccionado = tkinter.StringVar()
+b1 = ttk.Radiobutton(window, text='Soy fibra óptica', variable=seleccionado)
+b1.grid(column=1, row=2, sticky=tkinter.W)
+seleccionado2 = tkinter.StringVar()
+b2 = ttk.Radiobutton(window, text='Vivir en Matrix', variable=seleccionado2)
+b2.grid(column=1, row=3, sticky=tkinter.W)
+seleccionado3 = tkinter.StringVar()
+b3 = ttk.Radiobutton(window, text='Quiero hacer mi propio SO...S', variable=seleccionado3)
+b3.grid(column=1, row=4, sticky=tkinter.W)
+seleccionado4 = tkinter.StringVar()
+b4 = ttk.Radiobutton(window, text='DEF(Descansa en faz)', variable=seleccionado4)
+b4.grid(column=1, row=5, sticky=tkinter.W)
+seleccionado5 = tkinter.StringVar()
+b5 = ttk.Radiobutton(window, text='Como cambia la condición\n antropológica, gracias OB', variable=seleccionado5)
+b5.grid(column=1, row=6, sticky=tkinter.W)
+
+
+window.mainloop()
