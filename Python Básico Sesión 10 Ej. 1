@@ -1,0 +1,22 @@
+# En este ejercicio tenéis que crear una lista de RadioButton que muestre la opción que se ha seleccionado y
+# que contenga un botón de reinicio para que deje todo como al principio.
+# Al principio no tiene que haber una opción seleccionada.
+
+import tkinter
+from tkinter import ttk
+
+
+window = tkinter.Tk()
+
+def mifuncion():
+    if r1:
+        return r1.grid_remove()
+
+window.columnconfigure(0, weight=1)
+
+seleccionado = tkinter.StringVar()
+r1 = ttk.Radiobutton(window, text='Resetear', value=1, variable=seleccionado, command=mifuncion)
+
+r1.grid(column=0, row=1, padx=5, pady=5)
+
+window.mainloop()
